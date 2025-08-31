@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALA - Hébergement Web Professionnel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/vala-bleu-1.png" alt="VALA Blue Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#hebergement">Hébergement</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-server"></i>
+                    <span>Hébergement Premium</span>
+                </div>
+                <h1 class="hero-title">
+                    Hébergement web <span class="gradient-text">ultra-rapide</span> et sécurisé
+                </h1>
+                <p class="hero-description">
+                    Profitez d'un hébergement web haute performance avec une disponibilité de 99.9%, 
+                    des serveurs SSD ultra-rapides et un support technique 24/7 pour votre réussite en ligne.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary cta-button" id="choose-plan-btn">
+                        <i class="fas fa-rocket"></i>
+                        Choisir un plan
+                    </button>
+                    <button class="btn-secondary cta-button" id="performance-btn">
+                        <i class="fas fa-play"></i>
+                        Voir les performances
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>99.9% Uptime</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-hdd"></i>
+                    <span>SSD NVMe</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-headset"></i>
+                    <span>Support 24/7</span>
+                </div>
+                <div class="hero-illustration">
+                    <img src="/placeholder.svg?height=400&width=500" alt="Hébergement Web">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pourquoi choisir notre hébergement web ?</h2>
+                <p>Notre infrastructure d'hébergement VALA est conçue pour offrir des performances exceptionnelles, une sécurité renforcée et une fiabilité maximale pour tous vos projets web.</p>
+            </div>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Performance ultra-rapide</h3>
+                    <p>Nos serveurs SSD NVMe et notre réseau CDN mondial garantissent des temps de chargement exceptionnels pour vos sites web.</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Sécurité maximale</h3>
+                    <p>Protection DDoS, certificats SSL gratuits, sauvegardes automatiques et surveillance 24/7 pour une sécurité totale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hebergement" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Plans d'hébergement adaptés à tous vos besoins</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-price">
+                            <span class="currency">€</span>
+                            <span class="amount">99</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <h3>Hébergement Starter</h3>
+                        <p>Parfait pour débuter votre présence en ligne</p>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 10 GB Espace SSD</li>
+                        <li><i class="fas fa-check"></i> 1 Site web</li>
+                        <li><i class="fas fa-check"></i> Bande passante illimitée</li>
+                        <li><i class="fas fa-check"></i> SSL gratuit</li>
+                        <li><i class="fas fa-check"></i> Email professionnel</li>
+                        <li><i class="fas fa-check"></i> Support 24/7</li>
+                        <li><i class="fas fa-check"></i> Sauvegarde quotidienne</li>
+                    </ul>
+                    <button class="service-btn">Choisir ce plan</button>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-badge">Populaire</div>
+                    <div class="service-header">
+                        <div class="service-price">
+                            <span class="currency">€</span>
+                            <span class="amount">199</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <h3>Hébergement Business</h3>
+                        <p>Idéal pour les entreprises en croissance</p>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 50 GB Espace SSD</li>
+                        <li><i class="fas fa-check"></i> 10 Sites web</li>
+                        <li><i class="fas fa-check"></i> Bande passante illimitée</li>
+                        <li><i class="fas fa-check"></i> SSL gratuit</li>
+                        <li><i class="fas fa-check"></i> Emails illimités</li>
+                        <li><i class="fas fa-check"></i> CDN gratuit</li>
+                        <li><i class="fas fa-check"></i> Protection DDoS</li>
+                        <li><i class="fas fa-check"></i> Support prioritaire</li>
+                        <li><i class="fas fa-check"></i> Sauvegarde quotidienne</li>
+                    </ul>
+                    <button class="service-btn">Choisir ce plan</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-price">
+                            <span class="currency">€</span>
+                            <span class="amount">399</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <h3>Hébergement Premium</h3>
+                        <p>Solution complète pour les sites à fort trafic</p>
+                    </div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 200 GB Espace SSD</li>
+                        <li><i class="fas fa-check"></i> Sites illimités</li>
+                        <li><i class="fas fa-check"></i> Bande passante illimitée</li>
+                        <li><i class="fas fa-check"></i> SSL gratuit</li>
+                        <li><i class="fas fa-check"></i> Emails illimités</li>
+                        <li><i class="fas fa-check"></i> CDN premium</li>
+                        <li><i class="fas fa-check"></i> Protection DDoS avancée</li>
+                        <li><i class="fas fa-check"></i> Serveur dédié</li>
+                        <li><i class="fas fa-check"></i> Support VIP 24/7</li>
+                        <li><i class="fas fa-check"></i> Sauvegarde en temps réel</li>
+                        <li><i class="fas fa-check"></i> Monitoring avancé</li>
+                    </ul>
+                    <button class="service-btn">Choisir ce plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="strategy-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Notre infrastructure d'hébergement de pointe</h2>
+            </div>
+            
+            <div class="strategy-grid">
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Serveurs haute performance</h3>
+                    <p>Nos serveurs équipés de processeurs dernière génération et de disques SSD NVMe garantissent des performances exceptionnelles.</p>
+                </div>
+                
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Réseau mondial CDN</h3>
+                    <p>Notre réseau de distribution de contenu mondial assure une livraison rapide de vos sites partout dans le monde.</p>
+                </div>
+                
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Disponibilité 99.9%</h3>
+                    <p>Grâce à notre infrastructure redondante et notre monitoring 24/7, nous garantissons une disponibilité maximale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Prêt à héberger votre site ?</h2>
+                    <p>Contactez notre équipe d'experts dès maintenant pour choisir la solution d'hébergement parfaite.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+212 123 456 789</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@vala.ma</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="plan" required>
+                            <option value="">Choisir un plan</option>
+                            <option value="starter">Hébergement Starter</option>
+                            <option value="business">Hébergement Business</option>
+                            <option value="premium">Hébergement Premium</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Décrivez vos besoins d'hébergement" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Demander un devis
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/placeholder.svg?height=40&width=120&text=VALA+Blue&color=1e40af" alt="VALA Blue Logo" class="logo-img">
+                    <p>Votre partenaire de confiance pour l'hébergement web professionnel.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Hébergement</h4>
+                    <ul>
+                        <li><a href="#hebergement">Plans Starter</a></li>
+                        <li><a href="#hebergement">Plans Business</a></li>
+                        <li><a href="#hebergement">Plans Premium</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#contact">Nous contacter</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 VALA. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="plan-selection-popup" class="popup-overlay">
+        <div class="popup-content">
+            <button class="popup-close">&times;</button>
+            <h3>Choisissez votre plan d'hébergement</h3>
+            <div class="popup-plans">
+                <div class="popup-plan" data-plan="starter">
+                    <h4>Starter</h4>
+                    <p>€99/mois</p>
+                </div>
+                <div class="popup-plan" data-plan="business">
+                    <h4>Business</h4>
+                    <p>€199/mois</p>
+                </div>
+                <div class="popup-plan" data-plan="premium">
+                    <h4>Premium</h4>
+                    <p>€399/mois</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="performance-popup" class="popup-overlay">
+        <div class="popup-content">
+            <button class="popup-close">&times;</button>
+            <h3>Performances de nos serveurs</h3>
+            <div class="performance-stats">
+                <div class="stat">
+                    <h4>99.9%</h4>
+                    <p>Disponibilité garantie</p>
+                </div>
+                <div class="stat">
+                    <h4>&lt;200ms</h4>
+                    <p>Temps de réponse</p>
+                </div>
+                <div class="stat">
+                    <h4>24/7</h4>
+                    <p>Support technique</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
